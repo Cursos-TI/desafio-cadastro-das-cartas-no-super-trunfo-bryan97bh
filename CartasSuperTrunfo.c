@@ -23,5 +23,29 @@ int main() {
     float area2;
     float pib2;
     int pontosTuristicos2;
+// Leitura dos dados da Carta 1
+printf("Cadastro da Carta 1:\n");
+
+printf("Digite o estado (A a H): ");
+scanf(" %c", &estado1);
+
+printf("Digite o código da carta (ex: A01): ");
+scanf("%s", codigo1);
+
+printf("Digite o nome da cidade: ");
+scanf(" %[^\n]", nomeCidade1);  // lê até a nova linha
+
+printf("Digite a população da cidade: ");
+scanf("%d", &populacao1);
+
+printf("Digite a área da cidade (em km²): ");
+scanf("%f", &area1);
+
+printf("Digite o PIB da cidade (em bilhões de reais): ");
+scanf("%f", &pib1);
+
+printf("Digite o número de pontos turísticos: ");
+scanf("%d", &pontosTuristicos1);
+
     return 0;
 }
