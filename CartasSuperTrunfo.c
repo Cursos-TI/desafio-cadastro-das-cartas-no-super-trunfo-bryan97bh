@@ -62,7 +62,7 @@ scanf(" %[^\n]", nomeCidade2);
 printf("Digite a populaçao da cidade: ");
 scanf("%d", &populacao2);
 
-printf("Digite a area da cidade (em km²): ");
+printf("Digite a area da cidade (em km): ");
 scanf("%f", &area2);
 
 printf("Digite o PIB da cidade (em bilhoes de reais): ");
